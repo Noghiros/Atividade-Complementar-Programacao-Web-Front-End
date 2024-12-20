@@ -13,8 +13,3 @@ O objetivo principal foi desenvolver uma aplicação de lista de tarefas (**To-D
 - **HTML**: Estruturação da página.
 - **CSS**: Estilização da interface.
 - **JavaScript**: Implementação da lógica, manipulação do DOM e integração com `localStorage`.
-
-## 🚀 Como Usar
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/Noghiros/Atividade-Complementar-Programacao-Web-Front-End.git
