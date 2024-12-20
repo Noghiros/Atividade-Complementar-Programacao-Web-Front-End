@@ -1,0 +1,34 @@
+<! Nome: Stefano Calheiros Stringhini R.A.: 2312123 >
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Lista de tarefas</title>
+</head>
+
+<body>
+    <div class="header">
+        <h2>Lista de tarefas</h2>
+        <h1>Lista de Tarefas</h1>
+        <p>Bem-vindo à sua lista de tarefas! Aqui você pode organizar suas atividades do dia a dia.</p>
+        <p>Adicione novas tarefas, marque as concluídas e remova as desnecessárias.</p>
+        
+        <input type="text" id="tarefa" placeholder="Informe a tarefa">
+        <span onclick="addElemento()" class="addBtn">Incluir</span>
+        <button onclick="alterarFonteLista()" class="fontBtn">Alterar Fonte dos Itens</button>
+    </div>
+    <ul id="itemLista">
+        <li class="checked">Acordar</li>
+        <li class="checked">Comer</li>
+        <li>Entregar atividade no moodle</li>
+        <li>Dormir</li>
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
